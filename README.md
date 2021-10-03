@@ -7,8 +7,11 @@
 1. Please make sure that the program you have added is not already present in the repository.
 2. If the program is the solution to a competitive programming question, do add the question as a comment in the 1st line of your code.
 
-# Guidelines
+# Steps to Follow
   1. Fork this repository.
   2. Please add your code in its respective folders. For example, a Python program goes into a Python folder.
   3. Create a Pull Request.
   4. I will merge it.
+
+# Turorial video for Fork and Pull Request
+  https://www.youtube.com/watch?v=nT8KGYVurIU&ab_channel=TheCodex
