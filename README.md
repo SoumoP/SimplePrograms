@@ -8,7 +8,7 @@
 2. If the program is the solution to a competitive programming question, do add the question as a comment in the 1st line of your code.
 
 # Guidelines
-  Step 1: Fork this repository.
-  Step 2: Please add your code in its respective folders. For example, a Python program goes into a Python folder.
-  Step 3: Create a Pull Request.
-  Step 4: I will merge it.
+  1. Fork this repository.
+  2. Please add your code in its respective folders. For example, a Python program goes into a Python folder.
+  3. Create a Pull Request.
+  4. I will merge it.
