@@ -123,8 +123,6 @@ if __name__ == '__main__':
 		exit()
 
     # function call 
-	arr = array.copy()
 	timSort(array)
 
 	print('Sorted array:-\n',array)
-	print(sorted(arr) == array)
