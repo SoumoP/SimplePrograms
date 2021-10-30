@@ -1,35 +1,33 @@
-Program to check the palindrome of word using array.
+//Program to check the palindrome of word using array.
+
 
 #include<stdio.h>
-#include<conio.h>
 #include<string.h>
 
 void main()
 {
     char word[100];
     int length, counter;
-    clrscr();
+
 
     printf("Enter a word : ");
     scanf("%s", word);
     length = strlen(word);
-    int flag = 1;
+    
 
-    for (counter = 0; counter < length / 2 && flag; counter++)
+    for (counter = 0; counter < length / 2 ; counter++)
     {
         if (word[counter] != word[length - counter - 1])
         {
-            flag = 0;
+           printf("\n%s is NOT a palindrome.", word);
             break;
         }
+        else{ printf("\n%s is a palindrome.", word);
+        break;
+        
+        }
+  
+       
     }
-    if (flag)
-    {
-        printf("\n%s is a palindrome.", word);
-    }
-    else
-    {
-        printf("\n%s is NOT a palindrome.", word);
-    }
-    getch();
+    
 }
